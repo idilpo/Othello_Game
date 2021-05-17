@@ -1,0 +1,16 @@
+COMMENT ON OTHELLO BOARD GAME - 19206730
+
+
+GAME LOGIC:
+The main game logic was pretty simple. I had issues with the "gets" function I was using in my as it was generating a warning on my CLion. I tried using "fgets" to prevent this, however, fgets was messing up the process of checking for valid moves. For this reason, I went back to using "gets" in my function for making moves (named making_moves). Throughout the process of developing the program, I had many points where I felt stuck on an error that I didn't have any idea about. But with enough time and a lot of effort, I was able to submit my work.
+
+
+
+IMPLEMENTATION:
+
+-------------Board-----------
+Initializing was an easy enough task since the board is same with a chess board which is a common set up that I was also familiar with. So, i used the "-" as dividers to build up the board as well as putting letters at the bottom and numbers on the left side.
+-------------Players---------
+Had some troubles assigning correct player to the color due to the concept of structs. So, I needed to work on that for some time and after I figured out how to use and manipulate structs, I didn't have much trouble with displaying player name, color and score when necessary. 
+------------Discs-----------
+To represent the discs, the easiest way seemed to be using letters. That's why I represented black discs with the letter B and the white discs with the letter W.
