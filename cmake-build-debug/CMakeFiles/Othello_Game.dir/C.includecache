@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/idilbilgic/Desktop/Othello_Game/functions.c
+stdio.h
+-
+stdbool.h
+-
+
+/Users/idilbilgic/Desktop/Othello_Game/header.h
+
+/Users/idilbilgic/Desktop/Othello_Game/main.c
+stdio.h
+-
+string.h
+-
+stdbool.h
+-
+time.h
+-
+header.h
+/Users/idilbilgic/Desktop/Othello_Game/header.h
+
